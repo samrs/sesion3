@@ -1,4 +1,20 @@
+*body{
+    background-color: cornsilk;
+}
 .header-container{
     margin: 20px 20px 20px 20px;
     background-color: aquamarine;
+}
+
+.container-section-promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.container-section-promo .item-article{
+    width: 30%;
+    height: 100px;
+    background-color: cadetblue;
 }
