@@ -7,14 +7,58 @@
 }
 
 .container-section-promo{
-    display: flex;
     width: 70%;
     margin: 100px auto;
     align-items: center;
 }
 
-.container-section-promo .item-article{
-    width: 30%;
-    height: 100px;
-    background-color: cadetblue;
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+.publish > form {
+    display: flex;
+    height: 55px;
+  }
+
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+.publish > form div{
+    background-color: #025157;
+    border-radius: 8px;
+}
+
+.publish > form div * {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.publish > form div button {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    padding: 6px 20px;
+}
+
+.publish > form div input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 250px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
